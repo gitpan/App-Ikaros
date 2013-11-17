@@ -43,7 +43,7 @@ no_index:
 provides:
   App::Ikaros:
     file: lib/App/Ikaros.pm
-    version: 0.01
+    version: 0.02
   App::Ikaros::Builder:
     file: lib/App/Ikaros/Builder.pm
     version: 0
@@ -65,6 +65,12 @@ provides:
   App::Ikaros::Helper:
     file: lib/App/Ikaros/Helper.pm
     version: 0
+  App::Ikaros::IO:
+    file: lib/App/Ikaros/IO.pm
+    version: 0
+  App::Ikaros::Installer:
+    file: lib/App/Ikaros/Installer.pm
+    version: 0
   App::Ikaros::LandingPoint:
     file: lib/App/Ikaros/LandingPoint.pm
     version: 0
@@ -77,8 +83,14 @@ provides:
   App::Ikaros::Planner:
     file: lib/App/Ikaros/Planner.pm
     version: 0
+  App::Ikaros::Profiler:
+    file: lib/App/Ikaros/Profiler.pm
+    version: 0
   App::Ikaros::Reporter:
     file: lib/App/Ikaros/Reporter.pm
+    version: 0
+  App::Ikaros::Util:
+    file: lib/App/Ikaros/Util.pm
     version: 0
 requires:
   perl: 5.008001
@@ -86,6 +98,6 @@ resources:
   bugtracker: https://github.com/goccy/p5-App-Ikaros/issues
   homepage: https://github.com/goccy/p5-App-Ikaros
   repository: https://github.com/goccy/p5-App-Ikaros.git
-version: 0.01
+version: 0.02
 x_contributors:
   - 'MasaakiGoshima <masaaki.goshima@mixi.co.jp>'
